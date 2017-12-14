@@ -1,6 +1,9 @@
 ﻿#!/usr/bin/env python
 import sys, os, shutil
-from distutils.core import setup
+try:
+    from setuptools import setup
+except ImportError:
+    from distutils.core import setup
 
 
 # get the script name
