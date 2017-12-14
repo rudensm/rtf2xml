@@ -16,12 +16,12 @@ def get_script_name():
 script_name = get_script_name()
 
 setup(name="rtf2xml",
-    version= '1.33' ,
+    version= '2.01' ,
     description="Convert Microsoft RTF to XML",
     author="Paul Tremblay",
     author_email="paulhtremblay@gmail.com",
     license = 'MIT',
-    url = "https://github.com/paulhtremblay/rtf2xml",
+    url = "https://github.com/rudensm/rtf2xml",
     packages=['rtf2xml'],
     scripts=[script_name],
     )
